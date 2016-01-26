@@ -1,0 +1,165 @@
+/*
+ Theme Name:   Amy Powell 2016
+ Theme URI:    http://amyrenepowell.com/
+ Description:  Child theme of sapor
+ Author:       Amy Powell
+ Author URI:   http://amyrenepowell.com
+ Template:     sapor
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*-- Basic Body Layout --*/
+
+body {
+    background: #f9f9f9;
+}
+
+
+body.onesidebar .site-branding {
+    float: none;
+}
+
+.site-branding {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+div#page {
+	padding: 0;
+}
+
+div#content {
+    padding: 0px 30px;
+}
+
+.featured-image {
+    margin-bottom: 0;
+}
+
+/*--- Changing Color from #88cc33 to #418689 ---*/
+
+.entry-meta a, .site-footer a:hover,
+.device-bar,
+.toggle-on .action-text,
+.toggle-on .action-text:before,
+a:hover, a:focus, a:active,
+a.more-link,
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.showsub-toggle:hover:after, .showsub-toggle:focus:after, .showsub-toggle.sub-on:after,
+.page-links a,
+.nav-links div:hover,
+.nav-links a:hover,
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus,
+.entry-meta a,
+.site-footer a:hover,
+a.comment-reply-link,
+a:visited .comment-reply-link {
+    color: #418689;
+}
+
+mark,
+.comment-content a::after,
+.entry-content a::after,
+.entry-header a::after,
+.comment-respond a::after,
+.site-footer a::after,
+.entry-meta a::after,
+.widget_archive a::after,
+.widget_categories a::after,
+.widget_links a::after,
+.widget_meta a::after,
+.widget_pages a::after,
+.widget_recent_comments a::after,
+.widget_recent_entries a::after,
+.author-info a::after,
+.nav-links a::after,
+.social-links ul a,
+.footer-tags a:hover {
+  background: #418689;
+}
+
+
+::selection {
+  background: #418689; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #418689; /* Gecko Browsers */
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+ {
+  border: 4px solid #418689;
+  color: #418689;
+}
+
+button:active, button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+  border: 4px solid #418689;
+}
+
+a.button:hover {
+  background: #418689;
+  border: 2px solid #418689;
+}
+
+#infinite-handle span:hover {
+  border: 2px solid #418689;
+  color: #418689;
+}
+
+/*-- Header --*/
+
+.site-header {
+    margin: 0;
+}
+
+.featured-image img {
+    width: 100%;
+}
+
+.sidebar-open .featured-image {
+    display: none;
+}
+
+/*-- Footer --*/
+
+footer {
+    text-align: center;
+}
+
+/*-- Home --*/
+
+.entry-content {
+    padding: 0;
+}
+
+a.page-numbers {
+    margin: 0 15px;
+}
+
+/*-- RSS Widget --*/
+
+.widget_rss img.rss-widget-icon {
+    display: none;
+}
+
+.widget_rss h2 a {
+	color: #aaa;
+}
+
+.widget_rss li {
+    padding: 5px 0;
+}
